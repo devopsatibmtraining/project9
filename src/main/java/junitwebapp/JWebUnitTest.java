@@ -1,10 +1,5 @@
 package junitwebapp;
-import net.sourceforge.jwebunit.junit.JWebUnit.assertLinkPresent;
-import net.sourceforge.jwebunit.junit.JWebUnit.assertTitleEquals;
-import net.sourceforge.jwebunit.junit.JWebUnit.beginAt;
-import net.sourceforge.jwebunit.junit.JWebUnit.clickLink;
-import net.sourceforge.jwebunit.junit.JWebUnit.setBaseUrl;
-import net.sourceforge.jwebunit.junit.JWebUnit.setTestingEngineKey;
+import static net.sourceforge.jwebunit.junit.JWebUnit.*;
 
 import org.junit.Before;
 import org.junit.Test;
